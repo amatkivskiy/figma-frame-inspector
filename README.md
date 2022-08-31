@@ -4,11 +4,17 @@ A Flutter plugin to verify how accurately the Figma frame was implemented in the
 
 With this tool any developer can verify all the paddings, font styles and elements sizes matches design specification in Figma.
 
-TODO: Insert screen recoding of the tool.
+![recording](https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/showcase-recroding.gif)
 
 ## How it works
 
 This plugin provides `FigmaFrameInspector` widgets that render provided Figma frame on top of screen widget. This helps to check is the frame implementation. 
+
+PS: Example Figma frame was taken from [here](https://www.figma.com/community/file/1060856334579637757) 
+
+| Implementation                                                                                                                                 	| Figma                                                                                                                                          	| Diff                                                                                                                                           	|
+|------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------	|
+| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/implementation.png"  width="300"> 	| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-frame.png"  width="300">) 	| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/diff.png"  width="300">) 	|
 
 ## Installation
 
@@ -28,7 +34,7 @@ TODO: Specify proper package
 -   On the left side in **Layers** section select a frame that you need to verify
 -   Copy the URL of the frame
 
-TODO: Inser screenshot of coping the URL
+<img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-copy-frame-url.png"  width="400"> 
 
 ### Integration
 
@@ -70,6 +76,8 @@ class MyHomePage extends StatelessWidget {
 ## Credits
 
 This plugin was heavily inspired by [flutter_figma_preview](https://pub.dev/packages/flutter_figma_preview)
+
+Figma sample design taken from here https://www.figma.com/community/file/1060856334579637757
 
 ## License
 
