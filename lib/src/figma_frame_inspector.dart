@@ -16,7 +16,7 @@ class FigmaFrameInspector extends StatelessWidget {
   final Widget child;
 
   const FigmaFrameInspector({
-    super.key,
+    Key? key,
     required this.frameUrl,
     required this.figmaToken,
     this.scale = 3,
@@ -24,7 +24,7 @@ class FigmaFrameInspector extends StatelessWidget {
     this.enabled = true,
     this.isTouchToChangeOpacityEnabled = true,
     required this.child,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -66,6 +66,7 @@ class FigmaFrameInspector extends StatelessWidget {
                 );
                 return Center(
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Icon(
                         Icons.railway_alert_outlined,
@@ -95,12 +96,12 @@ class FigmaImageContainer extends StatefulWidget {
   final Widget child;
 
   const FigmaImageContainer({
-    super.key,
+    Key? key,
     required this.figmaImageUrl,
     required this.initialOpacity,
     required this.isTouchToChangeOpacityEnabled,
     required this.child,
-  });
+  }) : super(key: key);
 
   @override
   State<FigmaImageContainer> createState() => FigmaImageContainerState();
