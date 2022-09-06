@@ -81,4 +81,4 @@ Figma sample design taken from here https://www.figma.com/community/file/1060856
 
 ## License
 
-Can be found [here](TODO: link to license).
+Can be found [here](https://github.com/amatkivskiy/figma-frame-inspector/blob/main/LICENSE.md).
