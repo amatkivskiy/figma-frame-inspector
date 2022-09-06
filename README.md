@@ -8,13 +8,13 @@ With this tool any developer can verify all the paddings, font styles and elemen
 
 ## How it works
 
-This plugin provides `FigmaFrameInspector` widgets that render provided Figma frame on top of screen widget. This helps to check is the frame implementation. 
+This plugin provides `FigmaFrameInspector` widgets that render provided Figma frame on top of screen widget. This helps to check is the frame implementation.
 
-PS: Example Figma frame was taken from [here](https://www.figma.com/community/file/1060856334579637757) 
+PS: Example Figma frame was taken from [here](https://www.figma.com/community/file/1060856334579637757)
 
-| Implementation                                                                                                                                 	| Figma                                                                                                                                          	| Diff                                                                                                                                           	|
-|------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------	|
-| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/implementation.png"  width="300"> 	| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-frame.png"  width="300"> 	| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/e325747e343eebacd57a1d129221c890c96fa5e2/media/diff.png"  width="300"> 	|
+| Implementation                                                                                                                                       | Figma                                                                                                                                             | Diff                                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/implementation.png"  width="300"> | <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-frame.png"  width="300"> | <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/e325747e343eebacd57a1d129221c890c96fa5e2/media/diff.png"  width="300"> |
 
 ## Installation
 
@@ -34,7 +34,7 @@ TODO: Specify proper package
 -   On the left side in **Layers** section select a frame that you need to verify
 -   Copy the URL of the frame
 
-<img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-copy-frame-url.png"  width="400"> 
+<img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-copy-frame-url.png"  width="400">
 
 ### Integration
 
@@ -81,4 +81,4 @@ Figma sample design taken from here https://www.figma.com/community/file/1060856
 
 ## License
 
-Can be found [here](https://github.com/amatkivskiy/figma-frame-inspector/blob/main/LICENSE.md).
+Can be found [here](https://github.com/amatkivskiy/figma-frame-inspector/blob/main/LICENSE).
