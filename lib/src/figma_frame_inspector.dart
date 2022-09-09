@@ -5,16 +5,50 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:figma_frame_inspector/src/figmat_rest_api.dart';
 import 'package:flutter/material.dart';
 
+///
+/// Widget which renders provided Figma frame on top of screen widget.
+///
 class FigmaFrameInspector extends StatelessWidget {
+  ///
+  /// A link to Figma frame.
+  ///
+  /// It should be in format: `https://www.figma.com/file/<file_key>/<file_name >?node-id=<node_id>`.
+  ///
   final String frameUrl;
+
+  ///
+  /// Figma `Personal access token` from Account Settings page.
+  ///
   final String figmaToken;
+
+  ///
+  /// A number between `0.01` and `4`, the image scaling factor (basically resolution of frame image).
+  ///
   final double scale;
+
+  ///
+  /// Opacity of the frame on the screen start (default `30%`).
+  ///
   final double initialOpacity;
+
+  ///
+  /// Enable or disable the frame overlay (default `true`).
+  ///
   final bool enabled;
+
+  ///
+  /// Enable or disable vertical scroll to change the frame overlay opacity (default `true`).
+  ///
   final bool isTouchToChangeOpacityEnabled;
 
+  ///
+  /// Child widget which will be rendered on bellow of the Figma frame.
+  ///
   final Widget child;
 
+  ///
+  /// Creates [FigmaFrameInspector] widget.
+  ///
   const FigmaFrameInspector({
     Key? key,
     required this.frameUrl,
