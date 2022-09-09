@@ -8,7 +8,7 @@ With this tool any developer can verify all the paddings, font styles and elemen
 
 ## How it works
 
-This plugin provides `FigmaFrameInspector` widgets that render provided Figma frame on top of screen widget. This helps to check is the frame implementation.
+This plugin provides `FigmaFrameInspector` widget that renders provided Figma frame on top of `child` screen widget. This helps to check proper frame implementation.
 
 PS: Example Figma frame was taken from [here](https://www.figma.com/community/file/1060856334579637757)
 
