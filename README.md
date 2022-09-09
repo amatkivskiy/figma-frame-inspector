@@ -14,12 +14,11 @@ PS: Example Figma frame was taken from [here](https://www.figma.com/community/fi
 
 | Implementation                                                                                                                                       | Figma                                                                                                                                             | Diff                                                                                                                                       |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/implementation.png"  width="300"> | <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-frame.png"  width="300"> | <img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/e325747e343eebacd57a1d129221c890c96fa5e2/media/diff.png"  width="300"> |
+| ![](https://github.com/amatkivskiy/figma-frame-inspector/blob/c69d08ccdcfad4cabd0c5229a5671929e217bb93/media/implementation.png) | ![](https://github.com/amatkivskiy/figma-frame-inspector/blob/c69d08ccdcfad4cabd0c5229a5671929e217bb93/media/figma-frame.png) | ![](https://github.com/amatkivskiy/figma-frame-inspector/blob/c69d08ccdcfad4cabd0c5229a5671929e217bb93/media/diff.png) |
 
 ## Installation
 
-TODO: Specify proper package
-`flutter pub add *`
+`flutter pub add figma_frame_inspector`
 
 ## Usage
 
