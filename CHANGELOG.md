@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Updated `README.MD` texts and images
+
 ## 0.0.2
 
 * Updated `README.MD` texts and images
