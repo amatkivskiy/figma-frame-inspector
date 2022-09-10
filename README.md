@@ -33,7 +33,7 @@ PS: Example Figma frame was taken from [here](https://www.figma.com/community/fi
 -   On the left side in **Layers** section select a frame that you need to verify
 -   Copy the URL of the frame
 
-<img src="https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-copy-frame-url.png"  width="400">
+![figma-copy-frame](https://github.com/amatkivskiy/figma-frame-inspector/blob/a2b0dfc60b3ce0dcdb92d8c84d1f9d04c3bfd265/media/figma-copy-frame-url.png)
 
 ### Integration
 
