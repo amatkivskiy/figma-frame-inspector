@@ -1,5 +1,7 @@
 # Figma Frame Inspector
 
+[![Pub Version](https://img.shields.io/pub/v/figma_frame_inspector?color=007ec6)](https://pub.dev/packages/figma_frame_inspector)
+
 A Flutter plugin to verify how accurately the Figma frame was implemented in the app (whether paddings and elements sizes are correct).
 
 With this tool any developer can verify all the paddings, font styles and elements sizes matches design specification in Figma.
