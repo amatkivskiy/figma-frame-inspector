@@ -1,6 +1,6 @@
 name: figma_frame_inspector
 description: A Flutter plugin to verify how accurately the Figma frame was implemented in the app.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/amatkivskiy/figma-frame-inspector 
 
 environment:
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^4.0.6
-  cached_network_image: ^3.2.0
+  dio: ^5.1.0
+  cached_network_image: ^3.2.3
 
 dev_dependencies:
   flutter_test:
