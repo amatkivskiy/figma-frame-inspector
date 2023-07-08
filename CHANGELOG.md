@@ -1,3 +1,7 @@
+## 0.0.5
+
+* Fixed issue that sometimes nodeID has format `xx-xx` instead of `xx:xx`
+
 ## 0.0.4
 
 * Updated `dio` dependency to version `5.1.0`
