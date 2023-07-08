@@ -4,13 +4,13 @@ version: 0.0.4
 homepage: https://github.com/amatkivskiy/figma-frame-inspector 
 
 environment:
-  sdk: ">=2.16.2 <3.0.0"
+  sdk: ">=2.16.2 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^5.1.0
+  dio: ^5.2.1
   cached_network_image: ^3.2.3
 
 dev_dependencies:

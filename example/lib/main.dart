@@ -193,10 +193,10 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Container(
                   padding: const EdgeInsets.symmetric(vertical: 19),
                   color: const Color(0xFFFF7A30),
-                  child: Row(
+                  child: const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     mainAxisSize: MainAxisSize.max,
-                    children: const [
+                    children: [
                       Text(
                         'Don\'t have account?',
                         style: TextStyle(
