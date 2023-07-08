@@ -42,6 +42,12 @@ class FigmaRestApi {
 
       final images = responseJson['images'];
       if (!images.containsKey(nodeId)) {
+        // If Figma API returns node ID with colon instead of dash.
+        final nodeIdWithColon = nodeId.replaceAll('-', ':');
+        if (images.containsKey(nodeIdWithColon)) {
+          return images[nodeIdWithColon]!;
+        }
+
         return Future.error(FigmaApiError("Node ID ('$nodeId') not found."));
       }
 
